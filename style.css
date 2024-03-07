@@ -187,3 +187,49 @@
 .third-parent a{
     text-decoration: none;
 }
+
+.thirdbt{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.thirdbt button{
+    padding: 15px 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0802A3;
+    color: white;
+}
+
+/* 4th body */
+.fourth-body{
+    background-color: #FF4B91;
+}
+
+.fourth-parent{
+    /* display: flex;
+    justify-content: space-between;
+    gap: 130px; */
+    padding: 20px 0px 20px 120px;
+}
+
+.for-parent p{
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+}
+
+.for-parent button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: #FF4B91;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* 5th body */
+.fifth-body{
+    
+}
