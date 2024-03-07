@@ -7,6 +7,9 @@
     display: flex;
     justify-content: space-between;
     padding: 10px 75px 3px 60px;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 100px;
     /* border-bottom: 1px solid black; */
 }
 
@@ -52,8 +55,9 @@
 
 .bto2{
     background-color: #0802A3;
+    border: none;
     color: white;
-    padding: 5px 15px;
+    padding: 8px 15px;
     border-radius: 7px;
     font-size: 15px;
     font-weight: 700;
@@ -68,8 +72,14 @@
 /* 1st body */
 .first-body{
     padding: 40px 5px 30px 120px;
-    /* display: flex;
-    justify-content: space-between; */
+    
+    
+}
+
+.first-child{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .first-parent{
@@ -231,5 +241,21 @@
 
 /* 5th body */
 .fifth-body{
-    
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+/* footer */
+.foot{
+    background-color: #0802A3;
+    padding: 4px;
+    text-align: center;
+}
+
+.foot p{
+    padding-top: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #F8F9FA;
 }
