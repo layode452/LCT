@@ -1,15 +1,16 @@
 *{
     font-family: 'Times New Roman', Times, serif;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 .navb{
     display: flex;
     justify-content: space-between;
+    background-color: white;
     padding: 10px 75px 3px 60px;
     position: fixed;
     width: 100%;
-    margin-bottom: 100px;
+    z-index: 1000;
     /* border-bottom: 1px solid black; */
 }
 
@@ -67,23 +68,25 @@
     background-color: white;
     color: #0802A3;
     cursor: pointer;
+    border: 1px solid #0802A3;
 }
 
 /* 1st body */
 .first-body{
     padding: 40px 5px 30px 120px;
-    
-    
+    /* margin-top: 100px; */
 }
 
+
+
 .first-child{
-    margin-top: 100px;
     display: flex;
     justify-content: space-between;
 }
 
 .first-parent{
     padding: 40px;
+    margin-top: 100px;
 }
 
 .first-parent h1{
@@ -100,6 +103,7 @@
 
 .first-parent1{
     margin-left: 30px;
+    margin-top: 100px;
 }
 
 .first-parent1 img{
